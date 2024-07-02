@@ -1,0 +1,287 @@
+.header {
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.main-heading {
+    color: #0563bb;
+}
+
+.name h2 {
+    padding: 12px;
+}
+
+.nav-full {
+    color: #fff;
+    padding-left: 255px;
+}
+
+.pic {
+    margin-top: 100px;
+}
+
+.img-desc {
+    margin-top: 95px;
+}
+
+/* .resume-title{
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #45505b;
+}
+.resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #0563bb;
+    position: relative;
+}
+.resume-item h4 {
+    line-height: 16px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #0563bb;
+    margin-bottom: 10px;
+}
+.resume-item h5 {
+    font-size: 16px;
+    background: #f7f8f9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+.resume-item ul {
+    padding-left: 20px;
+}
+.resume-item ul li {
+    padding-bottom: 10px;
+}
+.resume-item:last-child {
+    padding-bottom: 0;
+}
+.resume-item::before{
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    background: #fff;
+    border: 2px solid #0563bb;
+    left: -9px;
+    top: 0;
+} */
+@media (min-width: 992px) {
+    .col-lg-6 {
+        flex: 0 0 auto;
+        width: 50%;
+    }
+}
+
+.about ul li {
+    margin-bottom: 20px;
+    display: flex;
+    align-items: center;
+}
+
+
+.facts .count-box {
+    padding: 30px 30px 25px 30px;
+    margin-top: 30px;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    background: #fff;
+}
+
+.facts .count-box i {
+    position: absolute;
+    top: -25px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    background: #0563bb;
+    color: #fff;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+}
+
+.facts .count-box span {
+    font-size: 36px;
+    display: block;
+    font-weight: 600;
+    color: #011426;
+}
+
+.facts .count-box p {
+    padding: 0;
+    margin: 0;
+    font-family: "Raleway", sans-serif;
+    font-size: 14px;
+}
+
+.btn-center {
+    text-align: center;
+}
+
+/*experience*/
+.box-shadow {
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+}
+
+.box-shadow:hover {
+    transform: translateY(-5px);
+}
+
+.box-link {
+    cursor: pointer;
+}
+
+.w-85 {
+    width: 85%;
+}
+
+.exp-dlts a {
+    text-decoration: none;
+    color: black;
+}
+
+.skills-size {
+    font-size: 13px;
+    margin-bottom: 7px;
+    font-weight: 600;
+}
+
+.bar-progress {
+    width: 90%;
+}
+
+.bar-progress-2 {
+    width: 95%;
+}
+
+.bar-progress-3 {
+    width: 70%;
+}
+
+.bar-progress-4 {
+    width: 85%;
+}
+
+.bar-progress-react {
+    width: 97%;
+}
+
+.progress-bar {
+    border-radius: 15px;
+}
+
+.desc-skill {
+    font-size: 16px;
+}
+
+#footer {
+    background: #f7f8f9;
+    color: #45505b;
+    font-size: 14px;
+    text-align: center;
+    padding: 30px 0;
+}
+
+#footer h3 {
+    font-size: 36px;
+    font-weight: 700;
+    position: relative;
+    font-family: "Poppins", sans-serif;
+    padding: 0;
+    margin: 0 0 15px 0;
+}
+
+#footer p {
+    font-size: 15;
+    font-style: italic;
+    padding: 0;
+    margin: 0 0 40px 0;
+}
+
+#footer .social-links {
+    margin: 0 0 40px 0;
+}
+
+#footer .social-links a {
+    font-size: 18px;
+    display: inline-block;
+    background: #0563bb;
+    color: #fff;
+    line-height: 1;
+    padding: 8px 0;
+    margin-right: 4px;
+    border-radius: 50%;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.3s;
+}
+
+#footer .social-links a:hover {
+    background: #0678e3;
+    color: #fff;
+    text-decoration: none;
+}
+
+#footer .copyright {
+    margin: 0 0 5px 0;
+}
+
+#footer .credits {
+    font-size: 13px;
+}
+
+#footer .credits a {
+    text-decoration: none;
+}
+
+.page-center {
+    margin-top: 230px;
+    text-align: center;
+}
+
+.sign-in {
+    border: 0;
+    padding: 10px 35px;
+    color: #fff;
+    transition: 0.4s;
+    border-radius: 50px;
+    background: #0859a5;
+    border: 1px solid black;
+    margin-top: 10px;
+}
+
+.sign-in:hover {
+    background: #0382f8;
+}
+
+@media (min-width: 992px) {
+    .navbar-expand-lg {
+        justify-content: flex-end;
+    }
+}
+
+.nav-arrange {
+    margin-left: -5px;
+}
+
+@media (min-width: 992px) {
+    .navbar-toggler {
+        justify-content: flex-end;
+    }
+}
